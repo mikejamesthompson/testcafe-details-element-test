@@ -1,0 +1,17 @@
+{
+  "name": "testcafe-details-element-test",
+  "version": "0.1.0",
+  "description": "Test case for TestCafe details element issue",
+  "main": "index.html",
+  "author": "Mike Thompson",
+  "license": "MIT",
+  "scripts": {
+    "start": "sirv . --port 8000",
+    "test-chrome": "testcafe chrome ./test.js",
+    "test-firefox": "testcafe firefox ./test.js"
+  },
+  "devDependencies": {
+    "testcafe": "^1.18.1",
+    "sirv": "^2.0.2"
+  }
+}
