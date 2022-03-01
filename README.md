@@ -1,16 +1,12 @@
-Instructions:
+# Details element visibility issue in TestCafé running on Chrome
 
-```
-npm install
-npm run start
-```
+This repo illustrates an issue with TestCafé in Chrome mistakenly treating
+the content within a closed `details` element as visible.
 
-And then in a new shell:
+To build and run:
 ```
-npm run test-chrome
-npm run test-firefox
+make
 ```
 
-Depends on locally installed versions of Chrome and Firefox.
-
-Could be extended to use Docker.
+The output will show the test passing in Firefox and failing in Chrome, as
+per the output of [this GitHub action](https://github.com/mikejamesthompson/testcafe-details-element-test/runs/5382228745?check_suite_focus=true).
