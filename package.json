@@ -11,7 +11,7 @@
     "test-firefox": "testcafe firefox ./test.js"
   },
   "devDependencies": {
-    "testcafe": "^1.18.1",
-    "sirv": "^2.0.2"
+    "sirv-cli": "^2.0.2",
+    "testcafe": "^1.18.1"
   }
 }
