@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "sirv-cli": "^2.0.2",
-    "testcafe": "^1.18.1"
+    "testcafe": "^1.18.4"
   }
 }
