@@ -8,3 +8,10 @@ test('Content is hidden', async () => {
     .expect(Selector('details li').filterVisible().count)
       .eql(0, "Details element content unexpectedly visible")
 });
+
+test('Log li properties', async () => {
+  const li = Selector('details li');
+  console.log(await li.tagName);
+  console.log(await li.visible);
+  console.log(await li.boundingClientRect);
+});
